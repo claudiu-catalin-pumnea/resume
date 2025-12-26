@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Claudiu-Catalin Pumnea - Senior Software Engineer | Resume</title>
+    <meta
+      name="title"
+      content="Claudiu-Catalin Pumnea - Senior Software Engineer | Resume"
+    />
+    <meta
+      name="description"
+      content="Senior Software Engineer at BearingPoint specializing in full-stack development with NestJS, Angular, Node.js, Azure Cloud, and CI/CD. Based in Bucharest, Romania."
+    />
+    <meta
+      name="keywords"
+      content="Claudiu Pumnea, Software Engineer, Full Stack Developer, NestJS, Angular, Node.js, TypeScript, Azure Cloud, GitHub Actions, PostgreSQL, Bucharest, Romania, BearingPoint"
+    />
+    <meta name="author" content="Claudiu-Catalin Pumnea" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://resume.claudiupumnea.dev" />
+    <meta
+      property="og:title"
+      content="Claudiu-Catalin Pumnea - Senior Software Engineer"
+    />
+    <meta
+      property="og:description"
+      content="Senior Software Engineer at BearingPoint specializing in full-stack development with NestJS, Angular, Node.js, Azure Cloud, and CI/CD. Based in Bucharest, Romania."
+    />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://resume.claudiupumnea.dev" />
+    <meta
+      property="twitter:title"
+      content="Claudiu-Catalin Pumnea - Senior Software Engineer"
+    />
+    <meta
+      property="twitter:description"
+      content="Senior Software Engineer at BearingPoint specializing in full-stack development with NestJS, Angular, Node.js, Azure Cloud, and CI/CD."
+    />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://resume.claudiupumnea.dev" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Claudiu-Catalin Pumnea",
+        "url": "https://resume.claudiupumnea.dev",
+        "jobTitle": "Senior Software Engineer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "BearingPoint"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bucharest",
+          "addressCountry": "Romania"
+        },
+        "email": "pumneaclaudiucatalin@gmail.com",
+        "telephone": "+40725414434",
+        "alumniOf": {
+          "@type": "EducationalOrganization",
+          "name": "University Politehnica of Bucharest"
+        },
+        "knowsAbout": [
+          "NestJS",
+          "Node.js",
+          "TypeScript",
+          "Angular",
+          "Azure Cloud",
+          "PostgreSQL",
+          "Docker",
+          "GitHub Actions",
+          "CI/CD",
+          "Full Stack Development"
+        ]
+      }
+    </script>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1.4;
+        color: #000;
+        background: #f5f5f5;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 850px;
+        margin: 0 auto;
+        background: white;
+        padding: 50px 60px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+      }
+
+      .header h1 {
+        font-size: 1.8em;
+        margin-bottom: 8px;
+        font-weight: bold;
+        letter-spacing: 1px;
+      }
+
+      .contact-info {
+        font-size: 0.95em;
+        color: #000;
+      }
+
+      .section {
+        margin-bottom: 25px;
+      }
+
+      .section-title {
+        font-size: 1em;
+        font-weight: bold;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #000;
+        padding-bottom: 3px;
+      }
+
+      .job,
+      .education-item,
+      .project {
+        margin-bottom: 18px;
+      }
+
+      .job-header,
+      .education-header,
+      .project-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 3px;
+      }
+
+      .job-title,
+      .education-title,
+      .project-title {
+        font-weight: bold;
+        font-size: 1em;
+      }
+
+      .job-date,
+      .education-date,
+      .project-date {
+        font-weight: bold;
+        font-size: 1em;
+        white-space: nowrap;
+      }
+
+      .company,
+      .institution {
+        font-style: italic;
+        margin-bottom: 5px;
+        font-size: 1em;
+      }
+
+      .job-description,
+      .education-description,
+      .project-description {
+        margin-left: 15px;
+        font-size: 0.95em;
+      }
+
+      .job-description li,
+      .education-description li,
+      .project-description li {
+        margin-bottom: 3px;
+      }
+
+      .skills-text {
+        font-size: 0.95em;
+        line-height: 1.5;
+      }
+
+      .contest-item {
+        margin-bottom: 3px;
+        font-size: 0.95em;
+      }
+
+      .soft-skill-item {
+        margin-bottom: 5px;
+        font-size: 0.95em;
+      }
+
+      .subsection-title {
+        font-weight: bold;
+        margin-bottom: 8px;
+        margin-top: 5px;
+      }
+
+      @media print {
+        body {
+          background: white;
+          padding: 0;
+        }
+
+        .container {
+          box-shadow: none;
+          padding: 20px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 30px 20px;
+        }
+
+        .job-header,
+        .education-header,
+        .project-header {
+          flex-direction: column;
+        }
+
+        .job-date,
+        .education-date,
+        .project-date {
+          margin-top: 3px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>CLAUDIU-CATALIN PUMNEA</h1>
+        <div class="contact-info">
+          Bucharest, Romania, pumneaclaudiucatalin@gmail.com, +40725414434.
+        </div>
+      </div>
+
+      <!-- Work Experience -->
+      <div class="section">
+        <h2 class="section-title">• WORK EXPERIENCE</h2>
+
+        <div class="job">
+          <div class="job-header">
+            <div class="job-title">Senior Software Engineer</div>
+            <div class="job-date">March 2025 – Present</div>
+          </div>
+          <div class="company">BearingPoint – Bucharest, Romania</div>
+          <ul class="job-description">
+            <li>
+              Leading implementation of CI/CD improvements with GitHub Actions,
+              focusing on robust deployment strategies and automated rollback
+              mechanisms
+            </li>
+            <li>
+              Driving architectural decisions while implementing guidelines for
+              better code quality and maintainability
+            </li>
+            <li>
+              Further developing code review processes to maintain high
+              standards across the team
+            </li>
+            <li>
+              Participating in technical interviews to help build and strengthen
+              the engineering team
+            </li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <div class="job-title">Advanced Software Engineer</div>
+            <div class="job-date">March 2024 – February 2025</div>
+          </div>
+          <div class="company">BearingPoint – Bucharest, Romania</div>
+          <ul class="job-description">
+            <li>
+              Drove architectural decision-making processes, aligning solutions
+              with project objectives and requirements.
+            </li>
+            <li>
+              Established robust code review processes, maintaining high code
+              quality standards across the team.
+            </li>
+            <li>
+              Led initiatives to enhance code reliability and scalability,
+              implementing best practices and design patterns to optimize
+              performance.
+            </li>
+            <li>
+              Actively contributed to shaping technical strategies, assuming a
+              tech-lead role in critical decision-making.
+            </li>
+            <li>
+              Participated in candidate interviews, providing valuable feedback
+              to strengthen the team's composition.
+            </li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <div class="job-title">Software Engineer</div>
+            <div class="job-date">March 2023 – February 2024</div>
+          </div>
+          <div class="company">BearingPoint – Bucharest, Romania</div>
+          <ul class="job-description">
+            <li>
+              Became actively involved in the implementation of Infrastructure
+              as Code using Bicep, contributing to the efficiency and
+              repeatability of infrastructure deployments.
+            </li>
+            <li>
+              Led architecture improvements to enhance the overall design and
+              scalability of the software system.
+            </li>
+            <li>
+              Implemented structural improvements in the database to optimize
+              data storage and retrieval processes.
+            </li>
+            <li>
+              Ensured the stability and reliability of the Azure Cloud services,
+              maximizing uptime and performance.
+            </li>
+            <li>
+              Successfully executed data migration tasks, ensuring seamless
+              transitions to updated systems.
+            </li>
+            <li>
+              Conducted refactorizations to enhance code quality,
+              maintainability, and overall software performance.
+            </li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <div class="job-title">Software Developer</div>
+            <div class="job-date">June 2022 – February 2023</div>
+          </div>
+          <div class="company">BearingPoint – Bucharest, Romania</div>
+          <ul class="job-description">
+            <li>
+              Identified and resolved bugs, enhancing the performance of the
+              software through systematic debugging and code optimization.
+            </li>
+            <li>
+              Implemented logic to seamlessly integrate other products into our
+              software, ensuring compatibility and smooth functionality.
+            </li>
+            <li>
+              Utilized Azure Functions and Azure Cloud services for various
+              functionalities, leveraging cloud-based solutions for scalability
+              and reliability.
+            </li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <div class="job-title">Programmer Analyst Trainee</div>
+            <div class="job-date">June 2021 – May 2022</div>
+          </div>
+          <div class="company">BearingPoint – Bucharest, Romania</div>
+          <ul class="job-description">
+            <li>
+              Collaborated with a team of developers to build an application
+              using Nest and Angular frameworks.
+            </li>
+            <li>
+              Assisted in coding, debugging, and testing to ensure the smooth
+              functioning of the application.
+            </li>
+            <li>
+              Contributed to the development process through active
+              participation and learning from experienced professionals.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="section">
+        <h2 class="section-title">• EDUCATION</h2>
+
+        <div class="education-item">
+          <div class="education-header">
+            <div class="education-title">
+              University Politehnica of Bucharest
+            </div>
+            <div class="education-date">October 2022 – 2024</div>
+          </div>
+          <ul class="education-description">
+            <li>
+              <strong
+                >Master of Computer Science Degree in Computer Science</strong
+              >.
+            </li>
+            <li>Faculty of Automatic Control and Computers</li>
+          </ul>
+        </div>
+
+        <div class="education-item">
+          <div class="education-header">
+            <div class="education-title">
+              University Politehnica of Bucharest
+            </div>
+            <div class="education-date">October 2018 – 2022</div>
+          </div>
+          <ul class="education-description">
+            <li>
+              <strong
+                >Bachelor of Computer Science Degree in Computer Science,
+                Diploma Project Grade: 9.1/10</strong
+              >
+            </li>
+            <li>Faculty of Automatic Control and Computers.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Languages and Technologies -->
+      <div class="section">
+        <h2 class="section-title">• LANGUAGES AND TECHNOLOGIES</h2>
+        <div class="skills-text">
+          • NestJS, NodeJs, JavaScript, TypeScript, Angular, Postgresql,
+          TypeOrm, Docker, Git, Github Actions, Azure Cloud, C, C++, Java,
+          MongoDB, CSS, Postgresql, SQL, Python, GIT, MATLAB
+        </div>
+      </div>
+
+      <!-- Personal Projects -->
+      <div class="section">
+        <h2 class="section-title">• PERSONAL PROJECTS</h2>
+
+        <div class="project">
+          <div class="project-header">
+            <div class="project-title">
+              Monitoring and control system for an apartment block
+            </div>
+            <div class="project-date">June 2022</div>
+          </div>
+          <ul class="project-description">
+            <li>
+              This project involves creating a web-based application to monitor
+              and control an apartment block using various sensors and relays.
+              It will have authentication for tenants and administrators, with
+              features such as consumption history, relay control, and parameter
+              access.
+            </li>
+            <li>
+              <strong>Technologies used</strong>: Nest.JS, React, TypeScript,
+              TypeORM, JavaScript, Node.JS, Docker, PostgreSQL, CSS and HTML 5.
+            </li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <div class="project-header">
+            <div class="project-title">Node chat app</div>
+            <div class="project-date">October 2021</div>
+          </div>
+          <ul class="project-description">
+            <li>
+              This Node.js is a real-time chat application, it allows users to
+              exchange messages, and engage in group discussions.
+            </li>
+            <li><strong>Technologies used</strong>: Node.js</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <div class="project-header">
+            <div class="project-title">Task manager app</div>
+            <div class="project-date">November 2021</div>
+          </div>
+          <ul class="project-description">
+            <li>
+              The Task Manager app is a comprehensive application designed for
+              efficient task list management.
+            </li>
+            <li><strong>Technologies used</strong>: Node.js, MongoDB</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <div class="project-header">
+            <div class="project-title">Weather app</div>
+            <div class="project-date">November 2021</div>
+          </div>
+          <ul class="project-description">
+            <li>
+              The Weather app is a dynamic application that utilizes an open API
+              to provide real-time weather information. Users can easily access
+              accurate weather data, including temperature, humidity, wind
+              speed, and more.
+            </li>
+            <li><strong>Technologies used</strong>: Node.js, MongoDB</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Extracurricular Activities -->
+      <div class="section">
+        <h2 class="section-title">• EXTRACURRICULAR ACTIVITIES</h2>
+        <div class="subsection-title">Contests</div>
+        <div class="contest-item">
+          • Best Engineering Marathon (BESTEM) -Adobe Romania Challenge (2020) –
+          1st place <span style="float: right">July 2020</span>
+        </div>
+        <div class="contest-item">
+          • European Best Engineering Competition (EBEC) (2020) - participation
+          <span style="float: right">April 2020</span>
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="section">
+        <h2 class="section-title">• SOFT SKILLS</h2>
+        <div class="soft-skill-item">
+          • Time-management skills and problem-solving abilities have been
+          significantly honed by the deadlines and tasks I faced during my
+          projects and work experiences.
+        </div>
+        <div class="soft-skill-item">
+          • Communication and teamwork skills acquired during my experience at
+          work and throughout university projects.
+        </div>
+      </div>
+
+      <!-- References -->
+      <div class="section">
+        <h2 class="section-title">• REFERENCES</h2>
+        <div class="soft-skill-item">• Available upon request.</div>
+      </div>
+    </div>
+  </body>
+</html>
